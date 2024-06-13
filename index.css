@@ -110,6 +110,10 @@ ol {
   display: flex;
 }
 
+.hide-class {
+  display: none;
+}
+
 .s-make,
 .e-make {
   position: absolute;
