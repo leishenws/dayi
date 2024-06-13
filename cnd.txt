@@ -1,0 +1,4 @@
+https://github.com/leishenws/dayi/blob/master/index.css
+
+cdn.jsdelivr.net/gh（gh就是GitHub缩写）+GitHub用户名+仓库名@版本号（非必须）+目录+文件。
+https://cdn.jsdelivr.net/gh/leishenws/dayi/index.css
