@@ -1,3 +1,5 @@
+jsdelivr 教程地址：https://jingyan.baidu.com/article/5bbb5a1b4fd62652eaa17958.html
+
 https://github.com/leishenws/dayi/blob/master/index.css
 
 cdn.jsdelivr.net/gh（gh就是GitHub缩写）+GitHub用户名+仓库名@版本号（非必须）+目录+文件。
