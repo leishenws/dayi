@@ -97,6 +97,10 @@ ol {
   align-items: center;
 }
 
+.baseline {
+  align-items: baseline;
+}
+
 .flex-bw {
   display: flex;
   justify-content: space-between;
@@ -112,39 +116,44 @@ ol {
 
 .hide-class {
   display: none;
-  
 }
 
+/** 页眉页脚页码 start */
 .s-make,
-.e-make {
+.e-make,
+.chapter-flag,
+.corner-mark {
   position: absolute;
-  left: 0;
   opacity: 1;
 }
 
 .chapter-flag {
-  position: absolute;
-  top: 0;
-  right: 0;
+  top: 47px;
+  right: 66px;
+  font-size: 8px;
+  color: #808385;
 }
 
 .s-make {
-  top: 0;
+  top: 42px;
+  left: 66px;
 }
 
 .e-make {
-  bottom: 0;
+  left: 66px;
+  bottom: 44px;
+  font-size: 12px;
+  color: #808385;
 }
 
 .corner-mark {
-  position: absolute;
   right: 66px;
   bottom: 44px;
-  font-size: 16px;
-  color: var(--cFD7446);
-  line-height: 24px;
+  font-size: 12px;
+  color: #808385;
 }
 
+/** 页眉页脚页码 end */
 .tac {
   text-align: center;
 }
@@ -1160,6 +1169,8 @@ ol {
 .rhombus {
   width: 7px;
   height: 7px;
+  min-width: 7px;
+  min-height: 7px;
   transform-origin: center center;
   transform: rotate(45deg) translateY(-1px);
   background-color: var(--cFD7446);
@@ -1504,8 +1515,12 @@ ol {
 }
 
 .p-c-3,
-.p-c-5 {
+.p-test-task {
   padding: 17.1021377672vh 66px 5.2256532067vh;
+}
+
+.p-test-task {
+  text-align: left;
 }
 
 .p-c-6,
