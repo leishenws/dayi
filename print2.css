@@ -1,6 +1,7 @@
-
-  --textColor: #414042;
-  --cFD7446: #FD7446;
+:root {
+	--textColor: #414042;
+	--cFD7446: #FD7446;
+}
 
 * {
   padding: 0;

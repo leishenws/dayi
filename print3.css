@@ -1,6 +1,7 @@
-:deep() {
-  --textColor: #414042;
-  --cFD7446: #FD7446;
+:root {
+	--textColor: #414042;
+	--cFD7446: #FD7446;
+}
 
 * {
   padding: 0;
@@ -1540,4 +1541,3 @@ ol {
 .footer-container {
   padding: 11.1638954869vh 66px 5.2256532067vh;
 }/*# sourceMappingURL=index.css.map */
-}
