@@ -4,5 +4,9 @@ https://github.com/leishenws/dayi/blob/master/index.css
 
 cdn.jsdelivr.net/gh（gh就是GitHub缩写）+GitHub用户名+仓库名@版本号（非必须）+目录+文件。
 刷新缓存地址 https://purge.jsdelivr.net/
-https://cdn.jsdelivr.net/gh/leishenws/dayi/index.css
 https://purge.jsdelivr.net/gh/leishenws/dayi/index.css
+
+
+https://cdn.jsdelivr.net/gh/leishenws/dayi/index.css
+https://cdn.jsdelivr.net/gh/leishenws/dayi/index3.css
+https://cdn.jsdelivr.net/gh/leishenws/dayi/print.css
