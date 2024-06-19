@@ -44,7 +44,8 @@ a[href^="#"] {
 
 /* 滚动条滑块 */
 .mce-content-body::-webkit-scrollbar-thumb {
-  background: #E1E2E6;
+  // background: #E1E2E6;
+  background: #fff;
   /* 滑块颜色 */
   border-radius: 5px;
 }
@@ -53,6 +54,10 @@ a[href^="#"] {
 .mce-content-body::-webkit-scrollbar-thumb:hover {
   background: #555;
   /* 滑块hover颜色 */
+}
+
+.mce-content-body:hover ::-webkit-scrollbar-thumb  {
+	background: #E1E2E6;
 }
 
 ul,
