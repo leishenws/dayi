@@ -34,6 +34,7 @@ a[href^="#"] {
   height: 12px;
   /* 水平滚动条的高度 */
   border-radius: 5px;
+  background: inherit;
 }
 
 /* 滚动条轨道 */
