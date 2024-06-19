@@ -38,14 +38,14 @@ a[href^="#"] {
 
 /* 滚动条轨道 */
 .mce-content-body::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: transparent;
   /* 轨道颜色 */
 }
 
 /* 滚动条滑块 */
 .mce-content-body::-webkit-scrollbar-thumb {
   // background: #E1E2E6;
-  background: #fff;
+  background: transparent;
   /* 滑块颜色 */
   border-radius: 5px;
 }
@@ -58,6 +58,9 @@ a[href^="#"] {
 
 .mce-content-body:hover ::-webkit-scrollbar-thumb  {
 	background: #E1E2E6;
+}
+.mce-content-body:hover :-webkit-scrollbar-track  {
+	background: #f1f1f1;
 }
 
 ul,

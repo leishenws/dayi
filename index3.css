@@ -38,13 +38,14 @@ a[href^="#"] {
 
 /* 滚动条轨道 */
 .mce-content-body::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: transparent;
   /* 轨道颜色 */
 }
 
 /* 滚动条滑块 */
 .mce-content-body::-webkit-scrollbar-thumb {
-  background: #E1E2E6;
+  // background: #E1E2E6;
+  background: transparent;
   /* 滑块颜色 */
   border-radius: 5px;
 }
@@ -53,6 +54,13 @@ a[href^="#"] {
 .mce-content-body::-webkit-scrollbar-thumb:hover {
   background: #555;
   /* 滑块hover颜色 */
+}
+
+.mce-content-body:hover ::-webkit-scrollbar-thumb  {
+	background: #E1E2E6;
+}
+.mce-content-body:hover ::-webkit-scrollbar-track  {
+	background: #f1f1f1;
 }
 
 ul,
@@ -97,10 +105,6 @@ ol {
   align-items: center;
 }
 
-.baseline {
-  align-items: baseline;
-}
-
 .flex-bw {
   display: flex;
   justify-content: space-between;
@@ -116,44 +120,39 @@ ol {
 
 .hide-class {
   display: none;
+  
 }
 
-/** 页眉页脚页码 start */
 .s-make,
-.e-make,
-.chapter-flag,
-.corner-mark {
+.e-make {
   position: absolute;
+  left: 0;
   opacity: 1;
 }
 
 .chapter-flag {
-  top: 47px;
-  right: 66px;
-  font-size: 8px;
-  color: #808385;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .s-make {
-  top: 42px;
-  left: 66px;
+  top: 0;
 }
 
 .e-make {
-  left: 66px;
-  bottom: 44px;
-  font-size: 12px;
-  color: #808385;
+  bottom: 0;
 }
 
 .corner-mark {
+  position: absolute;
   right: 66px;
   bottom: 44px;
-  font-size: 12px;
-  color: #808385;
+  font-size: 16px;
+  color: var(--cFD7446);
+  line-height: 24px;
 }
 
-/** 页眉页脚页码 end */
 .tac {
   text-align: center;
 }
@@ -1169,8 +1168,6 @@ ol {
 .rhombus {
   width: 7px;
   height: 7px;
-  min-width: 7px;
-  min-height: 7px;
   transform-origin: center center;
   transform: rotate(45deg) translateY(-1px);
   background-color: var(--cFD7446);
@@ -1515,12 +1512,8 @@ ol {
 }
 
 .p-c-3,
-.p-test-task {
+.p-c-5 {
   padding: 17.1021377672vh 66px 5.2256532067vh;
-}
-
-.p-test-task {
-  text-align: left;
 }
 
 .p-c-6,
