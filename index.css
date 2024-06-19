@@ -56,11 +56,12 @@ a[href^="#"] {
   /* 滑块hover颜色 */
 }
 
-.mce-content-body:hover ::-webkit-scrollbar-thumb  {
-	background: #E1E2E6;
+.mce-content-body:hover::-webkit-scrollbar-thumb {
+  background: #E1E2E6;
 }
-.mce-content-body:hover :-webkit-scrollbar-track  {
-	background: #f1f1f1;
+
+.mce-content-body:hover::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
 ul,
