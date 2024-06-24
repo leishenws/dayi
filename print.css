@@ -1317,7 +1317,7 @@ ol {
   grid-template-columns: 1fr 2fr 5fr 2fr;
 }
 .table-container .th-4-1612 {
-  grid-template-columns: 1fr 2fr 5fr 2fr;
+  grid-template-columns: 1fr 6fr 1fr 2fr;
 }
 .table-container .th-5 {
   display: grid;
