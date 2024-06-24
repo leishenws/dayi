@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --textColor: #414042;
   --cFD7446: #FD7446;
@@ -79,13 +80,23 @@ ol {
   position: relative;
   padding: 0 20px;
   margin: 0 auto;
-  margin-bottom: 20px;
-  width: 595px;
-  min-height: 842px;
+  // margin-bottom: 20px;
+  // width: 595px;
+  // min-height: 842px;
+  width:793.7px;
+  // min-height: 1122.52px;
   font-family: SourceHanSansSC, SourceHanSansSC;
   background-color: #fff;
   box-sizing: border-box;
 }
+
+.s-make,
+.e-make,
+.chapter-flag,
+.corner-mark {
+  opacity: 0 !important;
+}
+
 .pdf-container .e-make {
   height: 18px;
   font-size: 12px;
