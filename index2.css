@@ -85,6 +85,7 @@ ol {
   font-family: SourceHanSansSC, SourceHanSansSC;
   background-color: #fff;
   box-sizing: border-box;
+  box-shadow: 0px 9px 30px 0px rgba(10,22,52,0.1);
 }
 .pdf-container .e-make {
   height: 18px;
