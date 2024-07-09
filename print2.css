@@ -49,7 +49,7 @@ a[href^="#"] {
 
 /* 滚动条滑块 */
 .mce-content-body::-webkit-scrollbar-thumb {
-  background: #fff;
+  background: inherit;
   /* 滑块颜色 */
   border-radius: 5px;
 }
